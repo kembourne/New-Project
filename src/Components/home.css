@@ -1,0 +1,29 @@
+.sliderimage{
+    width: 99%;
+    height:300px
+    ;
+}
+.slidermain{
+    
+    height: 300px;
+    margin-bottom: 30px;
+}
+.cartmain{
+    width: 200px;
+    height: 100px;
+ 
+    box-shadow: 0 0 0 8px #0000;
+}
+.cartone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: inherit;
+   height: inherit;
+   border: 1px solid black;
+}
+.cartimg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

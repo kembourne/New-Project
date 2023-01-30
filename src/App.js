@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import Form from './Components/Form'
+import ProductPage from './Components/ProductPage.js'
+import { Category } from '@mui/icons-material'
+import CategoryPage from './Components/CategoryPage'
+import Navbar from './Components/Navbar'
+import { Routes,Route } from 'react-router-dom'
+import Bottom from './Components/Bottom'
+import Form2 from './Components/Form2.js'
 
-function App() {
+import SearchProducts from './Components/SearchProducts'
+import Cart from './Components/Cart'
+import Home from './Components/Home'
+export default function App() {
+ 
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+<Navbar />
+<Routes >
+  <Route path="/" element={<Form />} />
+  <Route path='home' element={<Home />}/>
+  <Route path='category' element={<CategoryPage />} />
+  <Route path='product' element={<ProductPage />}/>
+<Route path='search' element={<SearchProducts />} />
+</Routes>      
+<Bottom />
     </div>
-  );
+  )
 }
 
-export default App;

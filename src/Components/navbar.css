@@ -1,0 +1,173 @@
+.navtop{
+    height: 60px;
+    width: 100%;
+    background-color: #0091FF;
+}
+.phoneno{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px
+    ;
+    color: #fff
+    ;
+    padding: 20px;
+}
+.phoneicon{
+    font-size: 23px;
+}
+.origphone{
+    font-weight: bold b ;
+}
+.navtop{
+    display: flex;
+    justify-content: space-evenly;    
+color: #fff;
+    gap: 50%;
+    align-items: center;
+    flex-direction: row;
+}
+.navbarinputtext{
+height: 40px;
+justify-content: center;
+align-items: center;
+background-color: #F9FAFB;
+  border: none;
+  background: none;
+  outline: none;
+
+  border-radius: 8px;
+  color: #454F5B;
+}
+.searchicon{
+    font-size: 400px;
+  margin-top: 10px;
+    color: #fff;
+
+}
+.searchbutton{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbottomfirstinner{
+    display: flex;
+    flex-direction: row;
+   
+}
+.navbottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+ width: 70%;
+ gap: 0;
+}
+.navbottomfirst{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  gap: 0px;
+  justify-content: flex-start;
+  align-items: baseline;
+  
+}
+.navbottommain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fuck{
+    border: none;
+    outline:none;
+}
+.logo{
+padding-top: 10px;
+}
+
+.navbottomsecond{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #454F5B;
+    gap: 25px;
+}
+.connect{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px
+    ;
+    color: #454F5B;
+}
+.bottomicons{
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.navlast{
+    height: 600px;
+    background-color: #0091FF;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+  
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.navlasth1{
+    color: black;
+}
+.lastlastnav{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+    align-items: center;
+   
+    gap: 20px
+    ;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.lastlastnav a{
+    color: #0091FF;
+}
+@media only screen and (max-width: 820px){
+    .navbottomfirstinner{
+       display: none;
+    }
+    .navlast{
+        flex-direction: column;
+        height: 100%;
+        column-gap: 20px;
+    }
+}
+@media only screen and (max-width: 820px){
+    .navtop{
+        gap: 10%;
+    }
+    .navbottomsecond{
+        gap: 5px;
+        padding-right:10px ;
+    }
+}

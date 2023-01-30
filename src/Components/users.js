@@ -1,0 +1,43 @@
+const users=[
+    {
+Email:"ahsan@gmail.com",
+Name:"ahsan",
+Password:"1234567890"
+    },
+    {
+        Email:"ahsan2@gmail.com",
+        Name:"ahsan2",
+        Password:"1234567890"
+            },
+            {
+                Email:"ahsan3@gmail.com",
+                Name:"ahsan3",
+                Password:"1234567890"
+                    },
+                    {
+                        Email:"ahsan4@gmail.com",
+                        Name:"ahsan4",
+                        Password:"1234567890"
+                            },
+                            {
+                                Email:"ahsan5@gmail.com",
+                                Name:"ahsan5",
+                                Password:"1234567890"
+                                    },
+                                    {
+                                        Email:"ahsan6@gmail.com",
+                                        Name:"ahsan6",
+                                        Password:"1234567890"
+                                            },
+                                            {
+                                                Email:"ahsan7@gmail.com",
+                                                Name:"ahsan7",
+                                                Password:"1234567890"
+                                                    },
+                                                    {
+                                                        Email:"ahsan8@gmail.com",
+                                                        Name:"ahsan8",
+                                                        Password:"1234567890"
+                                                            },
+]
+export default users;
